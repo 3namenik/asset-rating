@@ -12,7 +12,7 @@ class rating {
         this.base_value = this.total_width / 5;
 
         /* Начальная заполненность рейтинга в px */
-        this.base_width = this.dom_el.querySelector('.rating__bg').style.width.replace(/[^+\d]/g, ''); r = this.dom_el.querySelector('.rating__bg');
+        this.base_width = this.dom_el.querySelector('.rating__bg').style.width.replace(/[^+\d]/g, '');
 
         /* Количество */
         this._sektor = this.total_width / 5;
